@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+hr {
+  border-top: 3em;
+  background: rgb(92, 92, 228);
+  height: 2px;
+  margin: 60px 84px;
+  width: auto;
+}
+
+/* nav-----------------------------------------------------------------------------*/
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+  z-index: 2;
+}
+.left {
+  font-size: 1.5rem;
+  margin-right: 250px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+}
+
+/* home------------------------------------------------------------------------------- */
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 0;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  margin-left: 3em;
+  font-size: 2.6rem;
+  color: rgb(62, 62, 149);
+}
+.purple {
+  color: rgb(34, 7, 59);
+}
+#element {
+  color: rgb(34, 7, 59);
+}
+.leftsection .btn a {
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.leftsection .btn a:hover {
+  padding: 12.5px;
+  font-size: 20.5px;
+}
+.rightsection img {
+  width: 80%;
+}
+
+/* about------------------------------------- */
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  margin-bottom: -5rem;
+}
+.about-img img {
+  width: 50%;
+}
+.about-me h2 {
+  color: #1e2167;
+  font-size: 32px;
+  border-bottom: 20px;
+}
+.about-me {
+  font-size: 20px;
+  width: 50%;
+  margin-top: 100px;
+  color: rgb(62, 62, 149);
+  
+}
+
+/* skills------------------------------------*/
+.skill-grid {
+  display: grid;
+  padding: 50px 0;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+.skills {
+  padding: 0% 10%;
+}
+.skill-grid img {
+  margin: auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.skill-grid h4 {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  color: rgb(62, 62, 149);
+}
+.skills h2 {
+  padding-left: 4.5em;
+  color: #1e2167;
+  font-size: 32px;
+  border-bottom: 20px;
+}
+.skill-grid div {
+  padding: 20px 0;
+  width: 90%;
+}
+
+/* Projects------------------------------------------------------------------ */
+.projects {
+  color: #1e2167;
+}
+.projects-grid {
+  display: grid;
+  padding: 50px 0;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+.projects-grid h4 {
+  text-align: center;
+}
+.projects {
+  padding: 0% 10%;
+}
+.projects h2 {
+  padding-left: 4.5em;
+  color: #1e2167;
+  font-size: 32px;
+  border-bottom: 20px;
+}
+.projects-grid h4 {
+  padding-top: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(62, 62, 149);
+}
+.projects-grid img {
+  margin: auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.projects-grid div {
+  padding: 20px 0;
+  width: 90%;
+}
+.projects-grid div p{
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 10px;
+}
+.projects-grid div:hover{
+  background: linear-gradient(rgb(218, 215, 215), rgb(185, 181, 181));
+  transform: translateY(-10px);
+  transition: 0.6s;
+}
+
+
+/* footer---------------------------------------------------------------------*/
+footer {
+  background-color: #0e0e1a;
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+.footer-first {
+  padding-top: 20px;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.footer ul li {
+  margin: 20px;
+  font-size: 1.2rem;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.footer ul li a:hover {
+  color: rgb(153, 153, 226);
+}
+.footer > div {
+  width: 223px;
+}
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  padding: 14px 0;
+}
+.text-gray {
+  color: gray;
+}
